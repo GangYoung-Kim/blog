@@ -9,14 +9,16 @@
 <html>
 <head>
     <link rel="stylesheet" href="static/css/init.css" />
+    <link rel="stylesheet" href="static/css/component.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="static/js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="static/js/common.js"></script>
 </head>
 <body>
-<jsp:include page="header.jsp"/>
-<div class="midContainer">
+<div class="full-container">
+    <jsp:include page="header.jsp"/>
+    <div class="body-container">
         <jsp:include page="sideMenu.jsp"/>
-    <div class="bodyContainer">
-        <jsp:include page="sndHeader.jsp"/>
-        <jsp:include page="contentContainer.jsp"/>
     </div>
 </div>
 </body>
