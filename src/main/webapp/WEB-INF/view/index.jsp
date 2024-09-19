@@ -19,6 +19,7 @@
     <jsp:include page="header.jsp"/>
     <div class="body-container">
         <jsp:include page="sideMenu.jsp"/>
+        <jsp:include page="content.jsp"/>
     </div>
 </div>
 </body>

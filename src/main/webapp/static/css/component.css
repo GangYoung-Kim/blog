@@ -205,8 +205,7 @@ input[id="menu-icon"] + label > span:nth-child(1), input[id="menu-icon"] + label
     margin-bottom: 2px;
 }
 
-.header-logo >
-.is-active + label > span:nth-child(2) {
+.header-logo > .is-active + label > span:nth-child(2) {
     opacity: 0;
 }
 
@@ -236,6 +235,7 @@ input[id="menu-icon"] + label > span:nth-child(1), input[id="menu-icon"] + label
     left: 0;
     overflow-x: hidden;
     transition: 0.5s;
+    border-right: 1px solid #d3d3d8;
 }
 
 .side-bar{
@@ -253,4 +253,14 @@ input[id="menu-icon"] + label > span:nth-child(1), input[id="menu-icon"] + label
     white-space: nowrap;
     font-size: 24px;
     line-height: 1.5;
+}
+
+.banner-area{
+    height: 20%;
+}
+
+.banner-img{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
 }

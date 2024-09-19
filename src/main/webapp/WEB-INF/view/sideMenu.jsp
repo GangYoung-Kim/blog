@@ -20,8 +20,5 @@
             </ul>
         </div>
     </div>
-    <div id="contentBody" class="content-area">
-        test
-    </div>
 </body>
 </html>
