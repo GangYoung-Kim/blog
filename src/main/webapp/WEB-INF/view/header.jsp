@@ -39,6 +39,11 @@
                     <span class="menu-item-text">PROJECT</span>
                 </a>
             </li>
+            <li class="menu-item">
+                <a href="#">
+                    <span class="menu-item-text">CONTACT</span>
+                </a>
+            </li>
         </ul>
     </nav>
     <div class="nav-search">
