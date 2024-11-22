@@ -8,6 +8,99 @@
     height: 100%;
 }
 
+.left-container{
+    width: 95%;
+    height: 100%;
+    background-image:url('../img/bg1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.right-container{
+    width: 5%;
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: flex-end;
+}
+
+.blog-name{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 215px;
+    height: 60px;
+    border: 3px solid #fff;
+}
+
+.blog-text{
+    letter-spacing: 8px;
+    margin: 0 auto;
+    font-size: 24px;
+    color: #fff;
+}
+
+.enter-menu-container{
+    display: flex;
+    align-items: center;
+    height: 250px;
+}
+
+.enter-inner-menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+}
+
+.e-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    gap: 10px;
+}
+
+.e-menu img{
+    cursor: pointer;
+}
+
+.fade-text span{
+    color: #fff;
+    opacity: 0;
+    display: inline-block;
+    transition: none;
+    transform: translateY(10px);
+}
+
+.fade-text{
+    font-size: 0.8rem;
+}
+
+.fade-text .space{
+    width: 0.5em;
+    display: inline-block;
+}
+
+.e-menu:hover span{
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-inline{
+    display: inline-block;
+}
+
 .bg-gray{
     position: absolute;
     width: 100%;
@@ -19,8 +112,6 @@
 }
 
 .modal-wrap{
-    width: 400px;
-    height: 250px;
     background: #fff;
     z-index: 9999;
     position: absolute;
@@ -32,6 +123,8 @@
 
 .modal-header{
     display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
     width: 100%;
     border-bottom: 1px solid #595959;
     height: 20%;
@@ -50,6 +143,10 @@
     width: 80%;
     place-items: center;
     margin-left: 10%;
+}
+
+.login-modal-body{
+    height: 80% !important;
 }
 
 .modal-body p{
@@ -73,6 +170,17 @@
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.dir_login{
+    cursor: pointer;
+}
+
+.btn_login_close{
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+    padding-right: 10px;
 }
 
 /*Header*/
